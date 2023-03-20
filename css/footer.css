@@ -75,8 +75,8 @@
 
 .footer-copy{
   grid-column: 1/-1;
-font-size: 1.25rem;
-color: #8f8f8f;
+  font-size: 1.25rem;
+  color: #8f8f8f;
 }
 
 @media (max-width: 800px){
@@ -84,7 +84,38 @@ color: #8f8f8f;
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .footer-contat li{
+
+  .footer-contato li{
     font-size: 1.5rem;
   }
+
+  .footer-contato .contato-email::before{
+  display: none;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url(../img/email.svg) no-repeat;
+  position: absolute;
+  left: -35px;
+}
+
+.footer-contato .contato-tel::before{
+  display: none;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url(../img/telefone.svg) no-repeat;
+  position: absolute;
+  left: -35px;
+}
+
+.footer-contato .contato-social::before{
+  display: none;
+  content: '';
+  width: 24px;
+  height: 24px;
+  background: url(../img/social.svg) no-repeat;
+  position: absolute;
+  left: -35px;
+}
 }

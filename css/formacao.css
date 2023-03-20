@@ -146,4 +146,8 @@
     position: initial;
     margin-bottom: 10px;
   }
+
+  .formacao .subtitulo{
+    text-align: center;
+  }
 }
