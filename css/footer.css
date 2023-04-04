@@ -99,16 +99,6 @@
   left: -35px;
 }
 
-.footer-contato .contato-tel::before{
-  display: none;
-  content: '';
-  width: 24px;
-  height: 24px;
-  background: url(../img/telefone.svg) no-repeat;
-  position: absolute;
-  left: -35px;
-}
-
 .footer-contato .contato-social::before{
   display: none;
   content: '';
