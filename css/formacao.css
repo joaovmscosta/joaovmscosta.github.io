@@ -56,8 +56,13 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  transition: 700ms;
+  transform-origin: left;
 }
 
+.faculdade:hover {
+  transform: scale(1, 1.125);
+}
 .faculdade-tipo {
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -147,7 +152,7 @@
     margin-bottom: 10px;
   }
 
-  .formacao .subtitulo{
+  .formacao .subtitulo {
     text-align: center;
   }
 }
